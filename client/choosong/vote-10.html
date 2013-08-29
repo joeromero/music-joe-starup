@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<title>Vote Songs</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+	<meta name="description" content="Your description">
+	<meta name="keywords" content="Your keywords">
+	<meta name="author" content="Your name">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/superfish.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script src="js/forms.js"></script>
+	<script>		
+   jQuery(window).load(function() {	
+    jQuery('.spinner').animate({'opacity':0},1000,'easeOutCubic',function (){jQuery(this).css('display','none')});	
+   }); 
+					
+	</script>
+
+	<!--[if lt IE 8]>
+  		<div style='text-align:center'><a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/img/upgrade.jpg"border="0"alt=""/></a></div>  
+ 	<![endif]-->
+	<!--[if (gt IE 9)|!(IE)]><!-->
+	<!--<![endif]-->
+	<!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/docs.css" type="text/css" media="screen">
+    <link rel="stylesheet" href="css/ie.css" type="text/css" media="screen">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+  <![endif]-->
+	</head>
+
+	<body>
+<div class="spinner"></div>
+<!--============================== header =================================-->
+<header>
+      <div class="container clearfix">
+    <div class="row">
+          <div class="span12">
+        <div class="navbar navbar_">
+              <div class="container">
+            <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/logo.gif"> </a></h1>
+            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse_">Menu<span class="icon-bar"></span> </a>
+            <div class="nav-collapse nav-collapse_  collapse">
+             <ul class="nav sf-menu">
+                <li class="active"><a href="concerts-2.html">Concerts</a></li>
+                <li><a href="chat.html">CHAT</a></li>
+                <li class="sub-menu"><a>Services</a>
+                  <ul>
+                   <li><a href="chatband.html">BAND CHAT</a></li>
+                   <li><a href="bewband-18.html">BE W BAND</a></li>
+                   <li><a href="buytickets-15.html">BUY TICKETS</a></li>
+                   <li><a href="buycred-21.html">BUY CREDITS</a></li>
+                  </ul>
+                 </li>
+                 <li class="sub-menu"><a>FREE</a>
+                  <ul>
+                   <li><a href="chat.html">FANS CHAT</a></li>
+                   <li><a href="wincred-12.html">WIN CREDITS</a></li>
+                   <li><a href="vote-10.html">VOTE SONGS</a></li>
+                   <li><a href="media-14.html">MEDIA</a></li>   
+                   <li><a href="login-6.html">LOG IN</a></li>   
+                   <li><a href="contact-4.html">CONTACT</a></li>   
+                  </ul>
+                 </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+        </div>
+  </div>
+</header>
+<div class="bg-content"> 
+      <!--============================== content =================================-->
+  <div id="content"><div class="ic"></div>
+    <div class="container">
+      <div class="row">
+        <article id= "hdif" class="row">
+              <div>
+                <h4>Vote the lastest Songs for the Concert</h4>
+                <p>
+                  
+                  <h5><em>Invest your Credits in VIP CHAT with Band</h5>
+                  <h5>Lucky?? Buy Lottery To Be in the Backstage</h5>
+                  
+                </p>
+              </div>
+        </article>
+            <div class="area span5">
+              <h3><strong>Win 3 Free Credits per Vote</strong></h3>
+             <div class="navbar">
+              <div class="navbar-inner">
+ 
+                    <ul class="nav">
+
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Select 1st Song</strong><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a id="chkA" class="singlecheck" href="#">Test A
+                            <span class="pull-right"></span></a></li>
+                          <li><a id="chkB" class="singlecheck checked" href="#">Test B
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <li><a id="chkC" class="singlecheck checked" href="#">Test C
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <li><a id="chkD" class="singlecheck checked" href="#">Test D
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <div class="clearfix"></div>
+                        </ul>
+                      </li>
+ 
+                    </ul>
+                
+               </div>
+             </div>
+             <div class="navbar">
+              <div class="navbar-inner">
+ 
+                    <ul class="nav">
+
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Select 2nd Song</strong><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a id="chkA" class="singlecheck" href="#">Test A
+                            <span class="pull-right"></span></a></li>
+                          <li><a id="chkB" class="singlecheck checked" href="#">Test B
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <li><a id="chkC" class="singlecheck checked" href="#">Test C
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <li><a id="chkD" class="singlecheck checked" href="#">Test D
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <div class="clearfix"></div>
+                        </ul>
+                      </li>
+ 
+                    </ul>
+                
+               </div>
+             </div>
+             <div class="navbar">
+              <div class="navbar-inner">
+ 
+                    <ul class="nav">
+
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><strong>Select 3rd Song</strong><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a id="chkA" class="singlecheck" href="#">Test A
+                            <span class="pull-right"></span></a></li>
+                          <li><a id="chkB" class="singlecheck checked" href="#">Test B
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <li><a id="chkC" class="singlecheck checked" href="#">Test C
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <li><a id="chkD" class="singlecheck checked" href="#">Test D
+                            <span class="icon-ok pull-right"></span></a></li>
+                          <div class="clearfix"></div>
+                        </ul>
+                      </li>
+ 
+                    </ul>
+                
+               </div>
+               <br>
+               <BR>
+               <button type="submit" class= "btn-large btn-block  btn-success">Send</button>
+             </div>              
+            </div>
+            <div class="area span2"/>
+            <div class="area span5">
+            <h3><strong>Win 5 Free Credits per each</strong></h3>
+
+              <a class= "push-left" href="#"><img src="img/go60.png" alt="#"></a>
+
+               <a class= "push-left" href="#"><img src="img/fb60.png" alt="#"></a>
+
+               <a class= "push-left" href="#"><img src="img/tw60.png" alt="#"></a>
+               <a class= "push-right" href="#"><img src="img/tu60.png" alt="#"></a>
+               <br>
+               <br>
+               <a class= "push-left" href="#"><img src="img/fl60.png" alt="#"></a>
+
+               <a class= "push-left" href="#"><img src="img/ig60.png" alt="#"></a>
+
+               <a class= "push-left" href="#"><img src="img/yt60.png" alt="#"></a>
+               <a class= "push-right" href="#"><img src="img/ye60.png" alt="#"></a>
+
+            </div>
+
+           </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!--============================== footer =================================-->
+<footer>
+  <div class="container clearfix">
+    <ul class="list-social pull-right">
+          <li><a class="icon-1" href="#"></a></li>
+          <li><a class="icon-2" href="#"></a></li>
+          <li><a class="icon-3" href="#"></a></li>
+          <li><a class="icon-4" href="#"></a></li>
+          <li><a class="icon-5" href="#"></a></li>
+          <li><a class="icon-6" href="#"></a></li>
+          <li><a class="icon-7" href="#"></a></li>
+          <li><a class="icon-8" href="#"></a></li>
+      </ul> 
+    </div> 
+</footer>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+</html>

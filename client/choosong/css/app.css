@@ -1,0 +1,27 @@
+/* app css stylesheet */
+
+.overflowable {
+  height: 400px;
+  overflow-y: auto;
+  border: 3px solid #6cf;
+}
+.overflowable1 {
+  height: 200px;
+  overflow-y: auto;
+  border: 3px solid #6cf;
+}
+.overflowable p {
+  margin: 2px;
+}
+.overflowable1 p {
+  margin: 2px;
+}
+
+.col {
+  float: left;
+  width: 350px;
+}
+
+.clr {
+  clear: both;
+}
